@@ -109,7 +109,7 @@ with m_col3:
 st.markdown("---")
 
 # --- 4. COMPREHENSIVE HISTORICAL EVENTS REGISTRY (Updated) ---
-all_events = [
+events = [
     {
         "start": 1929, "end": 1933, "color": "rgba(255, 0, 0, 0.05)", 
         "label": "Great Depression", "hover": "Great Depression: Stock crash & asset over-supply cuts markets by 80%+"
@@ -121,6 +121,14 @@ all_events = [
     {
         "start": 1945, "end": 1946, "color": "rgba(22, 160, 133, 0.06)", 
         "label": "Post-WWII Shock", "hover": "Post-War Demobilization: War spending stops causing a short structural drop, followed by a massive lifting of price controls"
+    },
+    {
+        "start": 1951, "end": 1952, "color": "rgba(52, 152, 219, 0.07)", 
+        "label": "1951 Fed-Treasury Accord", "hover": "Fed Autonomy Regained (1951): Historic Accord separates the Fed from Treasury control, allowing independent rate hikes to crush post-war inflation"
+    },
+    {
+        "start": 1959, "end": 1960, "color": "rgba(39, 174, 96, 0.07)", 
+        "label": "1959 Vault Cash Act", "hover": "Vault Cash Expansion (1959): Fed allows banks to count on-hand cash as legal reserves, instantly unlocking billions for suburban home loans"
     },
     {
         "start": 1971, "end": 1972, "color": "rgba(241, 196, 15, 0.07)", 
@@ -136,7 +144,7 @@ all_events = [
     },
     {
         "start": 1981, "end": 1985, "color": "rgba(41, 128, 185, 0.06)", 
-        "label": "Volcker Rate Hikes", "hover": "Volcker Shock: Fed raises interest rates to a record 20% to crush hyper-inflation, triggering a deliberate double-dip recession"
+        "label": "Volcker Rate Hikes", "hover": "Reagan-Volcker Solution: Fed raises interest rates to a record 20% to crush hyper-inflation, triggering a deliberate double-dip recession"
     },
     {
         "start": 1995, "end": 2001, "color": "rgba(46, 204, 113, 0.06)", 
@@ -151,7 +159,7 @@ all_events = [
         "label": "Euro Sovereign Debt", "hover": "Eurozone Crisis: High government debt in Greece/Italy triggers banking sector panic & bailouts"
     },
     {
-        "start": 2013, "end": 2013, "color": "rgba(210, 105, 30, 0.08)", 
+        "start": 2013, "end": 2013, "color": "rgba(241, 196, 15, 0.07)", 
         "label": "Taper Tantrum", "hover": "Emerging Market Turmoil: Fed hints at scaling back QE, causing mass capital flight from developing markets"
     },
     {
