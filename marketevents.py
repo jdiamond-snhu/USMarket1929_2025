@@ -159,10 +159,6 @@ events = [
         "label": "Euro Sovereign Debt", "hover": "Eurozone Crisis: High government debt in Greece/Italy triggers banking sector panic & bailouts"
     },
     {
-        "start": 2013, "end": 2013, "color": "rgba(241, 196, 15, 0.07)", 
-        "label": "Taper Tantrum", "hover": "Emerging Market Turmoil: Fed hints at scaling back QE, causing mass capital flight from developing markets"
-    },
-    {
         "start": 2014, "end": 2015, "color": "rgba(70, 130, 180, 0.06)", 
         "label": "Oil Price Collapse", "hover": "Crude Oil Crash: Massive oversupply from US shale and OPEC policy shift crashes oil prices by 50%+"
     },
