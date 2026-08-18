@@ -186,7 +186,7 @@ events = [
 
 # Runtime filter: Only track events that cross inside the user's selected slider scope
 filtered_events = [
-    e for e in all_events if e["start"] <= end_year and e["end"] >= start_year
+    e for e in events if e["start"] <= end_year and e["end"] >= start_year
 ]
 
 df["Historical_Event"] = "Stable Market Cycle"
