@@ -159,8 +159,8 @@ events = [
         "label": "Euro Sovereign Debt", "hover": "Eurozone Crisis: High government debt in Greece/Italy triggers banking sector panic & bailouts"
     },
     {
-        "start": 2013, "end": 2014, "color": "rgba(0, 128, 0, 0.06)", 
-        "label": "Turmoil in 2013", "hover": "Emerging markets cause uncertainty"
+        "start": 2013, "end": 2014, "color": "rgba(241, 196, 15, 0.07)", 
+        "label": "Turmoil in 2013", "hover": "Turmoil in 2013: Emerging markets cause uncertainty"
     },
     {
         "start": 2014, "end": 2015, "color": "rgba(70, 130, 180, 0.06)", 
