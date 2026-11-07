@@ -7,7 +7,7 @@ import numpy as np
 st.set_page_config(page_title="Macro History Dashboard", layout="wide")
 
 st.title("📈 100 Years of Macroeconomics (1925 - 2025)")
-st.write("App designed by Jeff Diamond, SNHU class of 2027, August 2026")
+st.write("App designed by Jeff Diamond, SNHU class of 2027. Uploaded August 2026")
 st.subheader("Dual-Axis tracking of Market Growth vs. Annual Inflation Rate")
 
 # 1. Generate historical proxy data spanning 1925 to 2025
